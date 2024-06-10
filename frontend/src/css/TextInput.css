@@ -1,0 +1,125 @@
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+} */
+
+.grid-container {
+    width: 700px;
+
+    display: grid;
+    grid-template-columns: 230px 230px 230px;
+    /* 3 columns */
+    grid-gap: 20px;
+    /* Gap between boxes */
+}
+.textinputhead{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    position: relative;
+    padding: 0;
+}
+
+.grid-item img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.heading{
+    position: absolute;
+    top:80%;
+    left: 40%;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.heading1{
+    top: 80%;
+    left: 40%;
+}
+.heading2{
+    top: 80%;
+    left: 25%;
+}
+.heading3 {
+    top: 80%;
+    left: 27%;
+}
+.heading4 {
+    top: 80%;
+    left: 27%;
+}
+.heading5 {
+    top: 80%;
+    left: 25%;
+}
+.heading6 {
+    top: 80%;
+    left: 40%;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* Two columns */
+    gap: 10px;
+    /* Gap between columns */
+    margin-bottom: 10px;
+    /* Margin between rows */
+}
+
+.span-2 {
+    grid-column: span 2;
+    /* Span two columns */
+    height: 30px;
+    font-size: 20px;
+    border: none;
+}
+.span-2:hover{
+    background-color: #4CAF50;
+    cursor: pointer;
+}
+.locationInput{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.locationInput label{
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+        margin-left: 5px;
+}
+.locationInput label input{
+    width: 20px;
+    height: 20px;
+    
+}
+
+.geoapify-autocomplete-input{
+    grid-column: span 2;
+    height: 20px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border: 2px solid gray;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.grid-item img{
+    margin-top: -20px;
+}

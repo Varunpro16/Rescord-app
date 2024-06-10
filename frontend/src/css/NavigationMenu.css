@@ -1,0 +1,14 @@
+.navigation-menu{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.navigation-menu button{
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 500;
+}

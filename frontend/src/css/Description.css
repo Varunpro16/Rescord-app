@@ -1,0 +1,46 @@
+/* MissionDetails.css */
+
+.mission-details {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.mission-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.progress-bar {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.progress {
+    width: 0%;
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.mission-location,
+.disaster-info,
+.mission-teams,
+.destination,
+.agency-locations {
+    margin: 10px 0;
+}
+
+.animation-typing {
+    /* You can style these as per your preference */
+    color: #007bff;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 20px;
+}
+

@@ -1,0 +1,70 @@
+/* CSS for the WaitingPage component */
+.waiting-page {
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+/* CSS for the popup box */
+.popup-box {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+    padding: 20px;
+}
+
+/* CSS for the popup content */
+.popup-content {
+    display: flex;
+    flex-direction: column;
+}
+
+/* CSS for the popup text */
+.popup-text {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+/* CSS for the popup buttons */
+.popup-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+/* CSS for the Accept button */
+.accept-button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.accept-button:hover {
+    background-color: #45a049;
+}
+
+/* CSS for the Reject button */
+.reject-button {
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.reject-button:hover {
+    background-color: #d32f2f;
+}
